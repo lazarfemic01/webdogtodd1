@@ -1,0 +1,26 @@
+div { 
+
+    border: 2px solid red;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    border-radius: 50px;
+    background-image: url(Gavrilo_Princip\,_prison\,_infobox_crop.jpg)
+    
+   
+
+}
+
+.dogone {
+
+    border: 5px groove  orange;
+    padding: 10px; color: lightsalmon; 
+    margin: 20px;
+
+}img {
+
+    box-sizing: border-box;
+    width: 300px;
+    height: 200px;
+}
+
