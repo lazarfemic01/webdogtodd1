@@ -1,0 +1,64 @@
+[source] {
+
+    color: solid red;
+    height: 10px;
+ width: 10px;
+
+}
+
+.promote{
+
+    text-emphasis-color: solid red;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+}
+
+.par1 {
+    color: orange;
+}
+
+.par2{
+    color: blue;
+
+}
+
+.par3 {
+    color: brown;
+}
+
+
+#narandžaste {
+    color: deeppink;
+}
+
+a:link {
+    color: red;
+}
+
+a:hover {
+    color: blue;
+
+
+}
+
+a:visited {
+    color: orange;
+}
+
+a:active {
+    color: brown;
+}
+
+
+div {
+
+    background: red;
+    height: 10px;
+    width: 10px;
+    display: inline-block;
+}
+div:hover {
+    background-color: green;
+    
+}
