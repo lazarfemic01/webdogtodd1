@@ -62,3 +62,48 @@ div:hover {
     background-color: green;
     
 }
+
+li:first-child {
+
+    color: red;
+}
+ 
+ul {
+    background-color: saddlebrown;
+}
+
+li:last-child { 
+    background-color: orange;
+}
+
+li:nth-child(even) {
+
+    color: pink;
+}
+
+li:nth-last-child(6) {
+    background: red;
+}
+
+li:nth-child(3n+1) {
+ 
+    font: 300px italic;
+}
+
+.paragraf::first-letter {
+    font: italic;
+    font-size: 30px;
+    color: red;
+}
+
+.paragraf {
+    font: larger;
+    font-size: 20px;
+text-shadow: orange;
+background-color: white;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
