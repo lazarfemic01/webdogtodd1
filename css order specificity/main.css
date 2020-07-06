@@ -1,0 +1,20 @@
+p {
+    color: red;
+
+}
+
+.para {
+    color: blue;
+}
+
+#dada {
+    color: orange;
+}
+
+[target=_blank] {
+    color: yellowgreen;
+}
+
+a {
+    color: brown;
+}
