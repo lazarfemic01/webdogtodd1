@@ -1,0 +1,19 @@
+#one {
+    height: 1500px;
+    width: 150px;
+    border: 4px dashed red;
+    background-color: blue;
+    margin-left: 100px;
+}
+
+#two {
+    position: fixed;
+    top: 200px;
+    left: 1000px;
+    height: 75px;
+    width: 75px;
+    background-color: green;
+}
+div {
+    border-radius: 5px;
+}

@@ -1,0 +1,22 @@
+
+
+div {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+
+}
+#one {
+    position: relative;
+top: 10px;
+left: 20px;
+background-color: green;
+}
+
+* {
+    border: 2px solid red;
+}
+
+#one {
+    position: static;
+}
