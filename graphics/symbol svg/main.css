@@ -1,0 +1,8 @@
+.camera {
+    height: 9rem;
+    width: 11rem;
+    fill: red;
+}
+.camera:hover {
+    fill: green;
+}
