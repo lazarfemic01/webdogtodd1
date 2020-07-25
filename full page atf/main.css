@@ -28,6 +28,8 @@ background-attachment: fixed;
     /* flex-flow: row nowrap; */
 align-items: center;
 flex-flow: column nowrap;
+margin-top: 1.5rem;
+
 
 
 }
@@ -38,24 +40,34 @@ button {
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 1.5rem;
     font-weight: normal;
     text-align: center;
+    padding-top: .5rem;
+    margin-left: .5rem;
+    margin-right: .5rem
+    ;
 }
 h2 {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     font-weight: 700;
     text-align: center;
+    
+    
+    
 }
 h3 {
-    font-size:1.4rem ;
+    font-size:1.6rem ;
     font-weight: normal;
     text-align: center;
     margin-top: 1.576rem;
+    
+
+    
 }
 
 button {
-    font-size:1.4rem ;
+    font-size:2rem ;
     font-weight: 700;
     border: 3px solid whitesmoke;
     border-radius: 5%;
@@ -66,7 +78,7 @@ button {
 }
 
 #idx-atf>div {
-    height: 90vh;
+    height: 85vh;
 }
 
 header {
@@ -78,14 +90,112 @@ header {
     width: 100%;
     /* flex-direction: row;
     flex-wrap: nowrap; */
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    display: flex;
 }
   header div, header nav{
-      height: 20%;
+      height: 50%;
       width: 150px;
-      background-color: red;
-      margin: 0 1rem;
+      /* background-color: red; */
+      align-items: center;
+      display:flex;
+      /* border: 2px solid red; */
+   }
+
+header nav svg {
+    display: none;
+}
+header nav {
+    display: none;
+}
+
+header div a svg {
+    display: none;
+}
+
+  header div a {
+      display: flex;
+      align-items: center;
   }
 
- 
+  header div a:hover {
+      color:#9dbb88;
+  }
+
+  
+header div {
+    align-content: center;
+    justify-content: center;
+    
+}
+
+.a2 {
+    fill: currentColor;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    
+    
+}
+
+.a1:hover{
+    fill: #e08a49;
+}
+.a2:hover{
+    fill: #79c2d0;
+}
+header h1 {
+    font-size: .9rem;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+header div {
+    width: 350px;
+}
+
+header h1:hover {
+    color: #e08a49;
+}
+
+    
+
+
+.a3 {
+    fill:currentColor
+}
+
+footer nav {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    box-sizing: border-box;
+}
+
+footer nav a {
+    display: flex;
+    align-items: center;
+    /* border: 2px solid hotpink; */
+    padding-left: 3rem;
+    background-color: deepskyblue;
+    border: 1px solid rgba(255, 255, 255, 0.3 );
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+
+footer nav a:hover {
+    background-color: royalblue;
+}
+footer nav a svg {
+    padding: right 1.7rem;
+}
+footer nav a:last-child {
+    border-bottom: none;
+}

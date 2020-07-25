@@ -13,3 +13,45 @@ h1 {
 h3 {
     margin-top: .4rem;
 }
+
+header {
+    justify-content: space-between;
+}
+
+header div, header nav{
+    height: 50%;
+    width: 150px;
+    /* background-color: red; */
+    margin: 0 1rem;
+    justify-content: space-between;
+    display:flex;
+}
+
+header nav a {
+    padding: 0 .2rem;
+    height: 100%;
+    }
+    header nav a:hover {
+        background-color: dimgray;
+        border-radius: 5px;
+        height: 100%;
+    }
+
+    header nav {
+        justify-content: space-between;
+    }
+    
+    .a1 {
+        height: 25px;
+        width: 100px;
+        fill: currentColor;
+        display: flex;
+        justify-content: space-between;
+        flex-flow: row nowrap;
+        
+    
+      }
+
+      footer nav {
+          display: none;
+      }
