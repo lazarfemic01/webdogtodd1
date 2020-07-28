@@ -1,0 +1,57 @@
+
+
+html, body {
+    margin:0;
+    padding: 0;
+    border: 0;  
+
+}  
+    
+
+    body {
+    color: green;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; 
+    }
+
+.battery {
+fill: currentColor;
+font-size: 8rem;
+position: relative;
+left: 0;
+animation-name: cholor;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    animation-play-state: running;
+
+}
+
+@keyframes cholor {
+    0%{left: 0%;}
+   
+    100%{left: 100%;}
+
+    }
+
+    p {
+        display:flex ;
+        justify-content: center;
+        align-items: center;
+        color: red;
+        font-size: 5rem;
+        transform: rotate(180deg);
+        animation-name: spinner;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    /* animation-direction: alternate; */
+    animation-timing-function: linear;
+    /* animation-play-state: running;  */
+        
+    }
+    @keyframes spinner {
+        0% {transform: rotate(0deg);}
+        100% {transform: rotate(360deg);}
+    }

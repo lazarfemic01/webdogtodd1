@@ -138,8 +138,17 @@ header div {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    
-    
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+
+
+.a1 {
+        transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+
 }
 
 .a1:hover{

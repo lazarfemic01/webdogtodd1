@@ -1,0 +1,23 @@
+div {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    border: 2px solid red;
+    font-size: 5em;
+    color:yellow
+}
+
+
+.transition {
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+div:hover {
+    color: blue;
+    background-color: yellowgreen;
+}
