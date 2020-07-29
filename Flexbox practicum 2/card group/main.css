@@ -1,0 +1,60 @@
+html, body, div, h3 {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+html {
+    color: skyblue;
+    font-size: 2vw;
+}
+
+#atf {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+align-items: center;
+border: 1px solid royalblue;
+height: 14rem;
+width: 14rem;
+background-color: whitesmoke;
+text-align: center;
+border-radius: 20%;
+margin-left: 10px;
+margin-right: 10px;
+}
+
+
+.top {
+    border-bottom: 1px solid black;
+}
+    
+
+
+h3 {
+    font-size: 1rem;
+    color: teal;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid black;
+}
+span {
+    color:darkgreen;
+    text-transform: capitalize;
+    font-weight: 900;
+    border-top: 1px solid black;
+}
+
+.icon {
+    fill: teal;
+}

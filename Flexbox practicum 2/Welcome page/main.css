@@ -1,0 +1,66 @@
+html, body, div, h1, h2, button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html {
+    color: skyblue;
+    font-size: 2vw;
+}
+
+#atf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    padding-bottom: 3rem;
+}
+
+h1 {
+    font-size: 3rem;
+    color: royalblue;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 2rem;
+    color: rgb(155, 174, 229);
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+button  {
+
+    height: 50px;
+    width: 100px;
+    background-color: skyblue;
+    border: royalblue;
+    font-size: .7rem;
+    border-radius: 10%;
+    cursor: pointer;
+
+}
+button:hover {
+    background-color: steelblue;
+}
+
+.emoji {
+    fill: currentColor;
+    color: darkorange;
+    animation-name: rotattion;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes rotattion {
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+}
+.emoji:hover {
+    color: darkred;
+}

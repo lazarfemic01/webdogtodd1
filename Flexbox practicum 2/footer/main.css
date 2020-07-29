@@ -1,0 +1,84 @@
+html, body, div, footer, p, span {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 1vw;
+    color: darkgrey;
+}
+#atf {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ h1 {
+     display: flex;
+     justify-content: center;
+ }
+
+ footer {
+     display: flex;
+     justify-content: center;
+ }
+ #top-border {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     width: 95%;
+     height: 12rem;
+     border: 2px solid black;
+ }
+ #ftr-spnr, #ftr-btns {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 0 6rem;
+     font-size: 4rem;
+ }
+
+ span {
+     margin-left: 1rem;
+ }
+
+ .icon {
+     width: 1em;
+     height: 1em;
+     fill: currentColor;
+ }
+
+ .icon-spinner {
+animation-name: spinner;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+animation-play-state: running;
+
+
+ }
+ @keyframes spinner {
+     0%{transform: rotate(0deg);}
+     100%{transform: rotate(360deg);}
+ }
+
+ #save {
+     color: white;
+     background-color:skyblue;
+     border: 1px solid lightblue;
+     font-size: 4rem;
+cursor: pointer;
+ }
+
+
+
+
+ #reset {
+     color: skyblue;
+     background-color: white;
+     font-size: 4rem;
+     border-radius: 20%;
+     margin-left: 1em;
+     border: 1px solid white;
+     cursor: pointer;
+ }
