@@ -1,0 +1,53 @@
+html, body, div {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+label {
+    position: fixed;
+     top: .1rem;
+     left: 1rem;
+     z-index: 1;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 5rem;
+     height: 2rem;
+     border: .3rem solid darkblue;
+     border-radius: .5rem;
+     background-color: lightblue;
+     color: royalblue;
+     margin-bottom: 1rem;
+}
+
+label:hover {
+    background-color: tomato;
+}
+
+#show-menu {
+    display: none;
+}
+
+#sidebar {
+    position: fixed;
+    left: -50rem;
+    height: 100%;
+    width: 20%;
+    background-color: lightblue;
+    border: 2px solid blue;
+    transition-property: all;
+    transition-timing-function: ease;
+    transition-duration: 1s;
+    /* padding-top: 2rem;
+    margin-top: 2rem; */
+}
+
+#show-menu:checked ~ #sidebar {
+    left: 0;
+}
+ol {
+    margin-top: 4rem;
+
+}

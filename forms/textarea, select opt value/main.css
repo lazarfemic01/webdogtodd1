@@ -1,0 +1,19 @@
+#essay {
+    border: 4px solid green;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#firstname {
+    border: 4px solid hotpink
+;
+}
+label {
+    font-size: 2rem;
+    color: green;
+}
