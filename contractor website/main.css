@@ -1,0 +1,163 @@
+html {
+    font-size: 1vw;
+
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+ .main-width {
+     width: 60vw;
+ }
+ header {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     margin-top: 1rem;
+     /* border: 1px solid hotpink */
+ }
+
+ h1 {
+     font-size: 2rem;
+ }
+ header nav {
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ header nav a {
+     width: 10%;
+     height: 25px;
+    margin: 1rem 1.5%;
+    /* border: 1px solid black; */
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: darkred;
+    font-size: 1.3rem;
+    text-decoration: none;
+
+}
+header nav a:hover {
+    background-color: darkgray;
+}
+
+header nav div {
+    width: 25%;
+    border-bottom: 2px solid darkgray;
+}
+#img {
+    margin-top: 1rem;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(Mother-birth.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.pimg {
+    font-size: 1.5rem;
+    font-family: 'Red Rose', cursive;
+}
+.buttonimg {
+    background-color: red;
+    font-size: 1rem;
+    font-family: 'Red Rose', cursive;
+    height: 40px;
+    width: 200px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+
+}
+.buttonimg:hover {
+    background-color: teal;
+    outline: none;
+}
+
+div button a {
+     color: whitesmoke;
+    text-decoration: none;
+
+}
+
+
+main {
+    margin-left: 300px;
+    margin-right: 300px;
+}
+#radon1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+h3 {
+    font-size: 1.5rem;
+    color: #41536B;
+    font-family: 'Red Rose', cursive;
+}
+
+.pradon1 {
+    font-size: 1rem;
+    font-family: 'Red Rose', cursive;
+    color: black;
+}
+.buttonimgcnt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#radon2 {
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+button a {
+    color: whitesmoke;
+    text-decoration: none;
+
+}
+
+
+.pradon3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pradon3-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Red Rose', cursive;
+    
+}
+
+.pradon3-2 {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ 
+}
+
+.pradon3-2img {
+    height: 250px;
+    width: 350px;
+    border-radius: 20%;
+}
