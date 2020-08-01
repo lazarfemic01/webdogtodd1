@@ -7,6 +7,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items:center;
+    font-family: 'Recursive', sans-serif;
 }
  .main-width {
      width: 60vw;
@@ -21,7 +22,8 @@ body {
  }
 
  h1 {
-     font-size: 2rem;
+     font-size: 2.5rem;
+     color:#023147;
  }
  header nav {
      width: 100%;
@@ -39,9 +41,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: darkred;
+    color: darkblue;
     font-size: 1.3rem;
     text-decoration: none;
+
 
 }
 header nav a:hover {
@@ -67,12 +70,13 @@ header nav div {
 }
 .pimg {
     font-size: 1.5rem;
-    font-family: 'Red Rose', cursive;
+    font-family: 'Recursive', sans-serif;
+    color:  #023147;
 }
 .buttonimg {
-    background-color: red;
+    background-color: royalblue;
     font-size: 1rem;
-    font-family: 'Red Rose', cursive;
+    font-family: 'Recursive', sans-serif;
     height: 40px;
     width: 200px;
     cursor: pointer;
@@ -106,12 +110,12 @@ main {
 h3 {
     font-size: 1.5rem;
     color: #41536B;
-    font-family: 'Red Rose', cursive;
+    font-family: 'Recursive', sans-serif;
 }
 
 .pradon1 {
     font-size: 1rem;
-    font-family: 'Red Rose', cursive;
+    font-family: 'Recursive', sans-serif;
     color: black;
 }
 .buttonimgcnt {
@@ -145,7 +149,7 @@ button a {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    font-family: 'Red Rose', cursive;
+    font-family: 'Recursive', sans-serif;
     
 }
 
@@ -160,4 +164,7 @@ button a {
     height: 250px;
     width: 350px;
     border-radius: 20%;
+}
+.pradon3-ol {
+    font-size: 1.1rem;
 }
