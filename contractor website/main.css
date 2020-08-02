@@ -26,6 +26,10 @@ body {
      font-size: 8rem;
      color:#023147;
  }
+
+ h2 {
+     font-size: 5rem;
+ }
  header nav {
      width: 100%;
      display: flex;
@@ -174,7 +178,6 @@ button a {
 .pradon3-ol {
     font-size: 4rem;
     font-family: 'Recursive', sans-serif;
-    font-weight: 700;
 
 }
 
@@ -190,7 +193,7 @@ table {
     font-family: 'Recursive', sans-serif;
     margin-bottom: 4rem;
     font-size: 3.2rem;
-    font-weight: 600;
+
 
 }
 
