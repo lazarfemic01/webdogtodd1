@@ -1,0 +1,135 @@
+html, body, div, p, nav, button, a {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+#atf {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-image: url(blur-abstract-background-examination-room-undergraduate_shutterstock_639640396.jpg);
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: whitesmoke;
+    width: 100%;
+}
+
+#grtcommons {
+    font-size: 1.8rem;
+    margin-left: 10px;
+    margin-top: 5px;
+    font-weight: 400;
+
+}
+
+#acc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+flex-direction: column;
+font-size: 1.4rem;
+font-weight: 300;
+margin-right: 5px;
+height: 60px;
+}
+
+.headerbutton {
+    color: whitesmoke;
+    font-size: 1.6rem;
+    text-decoration: none;
+    font-weight: 500;
+    border: 2px solid whitesmoke;
+    border-radius: 10%;
+
+}
+.button1 {
+    background-color: transparent;
+    padding: .5rem;
+}
+
+.headerbutton:hover {
+    color: darkslateblue;
+    border: 2px solid darkslateblue;
+}
+
+#center {
+    font-size: 4.3rem;
+    background-color: transparent;
+}
+
+#buttoncnt {
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+#buttoncnt:hover {
+    color: darkslateblue;
+}
+
+#footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+#footerp {
+    color: whitesmoke;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-weight: 300;
+}
+
+#button1 {
+    background-color: transparent;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    
+}
+
+#button1 a:hover {
+    color: darkslateblue;
+}
+
+#button1 a {
+    text-decoration:none;
+    color: whitesmoke;
+    font-weight: 600;
+}
+
+#cbl {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    
+}
+
+#cbl button {
+    background-color: transparent;
+    color: whitesmoke;
+    font-size: 1.3rem;
+    cursor: pointer;
+    margin-bottom: 2rem;
+    outline: none;
+}
+
+#cbl button:hover {
+    color: darkslateblue;
+}
