@@ -1,0 +1,147 @@
+header, div, nav, p, footer {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Playfair Display', serif;;
+}
+
+header  {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border-bottom: 1px solid black;
+    background-color: whitesmoke;
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+}
+
+#div1 {
+    width: 33%;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+#id2 {
+    width: 67%;
+    justify-content: space-between;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#button1 {
+    outline: none;
+    color: blue;
+    border: none;
+    cursor: pointer;
+    padding: .5rem ;
+    background-color: whitesmoke;
+    cursor: pointer;
+    /* margin-left: 2rem; */
+    font-weight: 600;
+    /* margin-right: 2rem; */
+    
+    
+}
+
+#button1:hover {
+    background-color: gray;
+    border: 1px solid gray;
+    border-radius: 10%;
+}
+
+#atf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(images/surfer_surfing_shore_121476_1920x1080.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position:center;
+    width: 100%;
+}
+
+#div3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#div3 a {
+    color: whitesmoke;
+    background-color: royalblue;
+    text-decoration: none;
+    height: 40px;
+    width: 130px;
+    text-align: center;
+    border: 1px royalblue;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+}
+
+#div3 a:hover {
+    background-color: teal;
+}
+
+footer div {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+footer div img {
+    height: 350px;
+    width: 400px;
+    padding: 0;
+    border-radius: 5%;
+    border: 1px solid white;
+    margin-right: .6rem;
+    margin-left: .6rem;
+    margin-bottom: 1.5rem;
+    margin-top: 2rem;
+}
+
+#p1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row wrap;
+    padding-right: 1rem;
+    padding-left: 1rem
+
+}
+#p2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+h2 {
+    font-weight: 900;
+    font-size: 1.5rem;
+    color: royalblue;
+}
+#p2 p {
+    font-size: 1.1rem;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
