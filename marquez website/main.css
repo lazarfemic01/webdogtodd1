@@ -1,0 +1,92 @@
+html, body, div, p, svg, footer, header {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: whitesmoke;
+
+
+}
+
+.icons {
+    height: 40px;
+    width: 40px;
+    fill: orangered;
+    cursor: pointer;
+    outline: none;
+    
+}
+
+#logo {
+    margin-left: 2rem;
+    font-weight: 600;
+    font-size: 2.5rem;
+    color: orangered;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem;
+    font-family: 'Sofia', cursive;
+}
+
+.logoicon {
+    height: 50px;
+    width: 50px;
+    fill: skyblue;
+    margin-right: 1.5rem;
+}
+
+div svg a {
+    fill: orangered;
+    cursor: pointer;
+}
+
+#atf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color: #ffdfbf;
+
+}
+
+img {
+    height: 250px;
+    width: 250px;
+    border: 1px solid white;
+    border-radius: 80%;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    
+}
+
+#img2 {
+    height: 220px;
+    width: 220px;
+}
+
+#pp2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Chilanka', cursive;
+    font-weight: 1000;
+    font-size: 1.1rem;
+
+}
+
+h1 {
+    font-size: 2.1rem;
+    color: orangered;
+    font-weight: 1000;
+}
