@@ -4,8 +4,9 @@ html, body, div, p, svg, footer, header {
     padding: 0;
     box-sizing: border-box;
 }
-
-
+body {
+    background-color: whitesmoke;
+}
 header {
     width: 100%;
     height: 50px;
@@ -13,19 +14,14 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: whitesmoke;
-
-
+    position: fixed;
 }
-
 .icons {
-    height: 40px;
-    width: 40px;
-    fill: orangered;
-    cursor: pointer;
+    height:35px;
+    width: 35px;
     outline: none;
     
 }
-
 #logo {
     margin-left: 2rem;
     font-weight: 600;
@@ -45,9 +41,11 @@ header {
     margin-right: 1.5rem;
 }
 
-div svg a {
-    fill: orangered;
+ #društvenemreže a svg {
     cursor: pointer;
+    fill: orangered;
+
+
 }
 
 #atf {
@@ -56,7 +54,6 @@ div svg a {
     align-items: center;
     height: 100vh;
     flex-direction: column;
-    background-color: #ffdfbf;
 
 }
 
@@ -87,6 +84,109 @@ img {
 
 h1 {
     font-size: 2.1rem;
-    color: orangered;
+    color: black;
     font-weight: 1000;
+    margin-top: -5rem; 	
+    text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 
+        0px -4px 10px rgba(255,255,255,0.3);
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.3rem;
+    font-family: 'Chilanka', cursive;
+    margin-bottom: 3rem;
+    margin-top: -10rem;
+    color: orangered;
+    text-shadow: 16px 22px 11px rgba(0, 0, 0, 0.8);
+}
+
+footer {
+    display: flex;
+    
+}
+
+footer div {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+.divhrana {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#hranaimg {
+    border-radius: 30%;
+    border: 1px solid whitesmoke;
+    height: 180px;
+    width: 180px;
+    border: 4px ridge orangered;
+}
+
+.divhrana p {
+    font-size: 1.5rem;
+    font-family: 'Sofia', cursive;
+}
+
+.kraj {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.kolona1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+   margin-top: 10rem;
+}
+
+.kolona1 p {
+    font-size: 1.2rem;
+    font-family: 'Chilanka', cursive;
+    font-weight: 600; 
+    margin-top: -1.5rem;
+}
+
+h3 {
+    font-size: 2.3rem;
+    color: orangered;
+    font-family: 'Chilanka', cursive;
+    margin-bottom: 1rem;
+    margin-top: -6rem;
+    margin-left: -7rem;
+    margin-right: 3rem;
+    text-shadow: 16px 22px 11px rgba(0, 0, 0, 0.8);
+}
+
+
+.icons2 {
+    fill: royalblue;
+    width: 50px;
+    height: 50px;
+
+}
+
+.kolona12 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+
+#kolona2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10rem;
 }
